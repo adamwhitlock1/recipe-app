@@ -7,9 +7,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style lang="scss">
@@ -20,16 +18,16 @@ nav {
     margin: 0;
     padding: 0;
     list-style: none;
-    li{
+    li {
       display: inline;
-      margin: .5rem;
-      a,div{
+      margin: 0.5rem;
+      a,
+      div {
         display: inline;
         color: #ffffff;
         text-decoration: none;
       }
     }
-  };
+  }
 }
-
 </style>

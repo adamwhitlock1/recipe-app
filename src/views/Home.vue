@@ -19,8 +19,8 @@ export default {
 </script>
 
 <style lang="scss">
-  .recipe-view {
-    display: flex;
-    height: 100%;
-  }
+.recipe-view {
+  display: flex;
+  height: 100%;
+}
 </style>

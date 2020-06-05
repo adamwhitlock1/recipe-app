@@ -7,15 +7,14 @@
 <script>
 export default {
   name: 'Logos'
-
 }
 </script>
 
 <style lang="scss">
-  .header-left {
-    .page-title {
-      color: #fff;
-      margin: 0 0 0 1rem;
-    }
+.header-left {
+  .page-title {
+    color: #fff;
+    margin: 0 0 0 1rem;
   }
+}
 </style>

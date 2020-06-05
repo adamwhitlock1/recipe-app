@@ -8,12 +8,7 @@ export default new Vuex.Store({
     recipes: [
       {
         name: 'Spicy Sausage Ragu',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -35,12 +30,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -66,12 +56,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 2',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -93,12 +78,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 2',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -124,12 +104,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 3',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -151,12 +126,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 3',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -182,12 +152,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 4',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -209,12 +174,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 4',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -240,12 +200,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 5',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -267,12 +222,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 5',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -295,14 +245,10 @@ export default new Vuex.Store({
           'olive oil': '1/4 cup',
           orange: '1, juiced, parts of peel removed and sliced into thin strips'
         }
-      }, {
+      },
+      {
         name: 'Spicy Sausage Ragu 6',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -324,12 +270,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 6',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -355,12 +296,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 7',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -382,12 +318,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 7',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -413,12 +344,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 8',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -440,12 +366,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 8',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -471,12 +392,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Spicy Sausage Ragu 9',
-        tags: [
-          'italian',
-          'spicy',
-          'pasta',
-          'sauce'
-        ],
+        tags: ['italian', 'spicy', 'pasta', 'sauce'],
         description: 'A spicy pork sausage tomato cream sauce',
         steps: [
           'Brown sausage in a large pot',
@@ -498,12 +414,7 @@ export default new Vuex.Store({
       },
       {
         name: 'Pork Carnitas 9',
-        tags: [
-          'Mexican',
-          'tacos',
-          'meat',
-          'slow-cooker'
-        ],
+        tags: ['Mexican', 'tacos', 'meat', 'slow-cooker'],
         description: 'A Mexican slow cooked pork, typically is slightly crispy',
         steps: [
           'Preheat oven to 275 &deg; F',
@@ -528,21 +439,21 @@ export default new Vuex.Store({
         }
       }
     ],
-    currentRecipe: 0
+    currentRecipe: 0,
+    currentRecipeObj: null
   },
   mutations: {
-    changeCurrentRecipe (state, recipeIndex) {
-      state.currentRecipe = recipeIndex
+    changeCurrentRecipe(state, payload) {
+      console.log({ payload })
+      state.currentRecipeObj = payload.recipe
+      state.currentRecipe = payload.index
     }
   },
   actions: {
-    changeCurrentRecipe (context, recipeIndex) {
-      context.commit('changeCurrentRecipe', recipeIndex)
+    changeCurrentRecipe(context, payload) {
+      context.commit('changeCurrentRecipe', payload)
     }
   },
-  getters: {
-
-  },
-  modules: {
-  }
+  getters: {},
+  modules: {}
 })

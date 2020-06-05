@@ -1,6 +1,15 @@
 <template>
   <div class="recipe-single">
-    <h2>{{ recipeName  }}</h2>
+    <h2>{{ currentRecipeObj.name }}</h2>
+    <p>Description {{ currentRecipeObj.description }}</p>
+    <ul>
+      <li
+        v-for="(value, key, index) in currentRecipeObj.ingredients"
+        :key="key"
+      >
+        {{ index }}. {{ key.toUpperCase() }} : {{ value }}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -8,15 +17,8 @@
 import { mapState } from 'vuex'
 
 export default {
-
   computed: {
-    ...mapState({
-      recipes: 'recipes',
-      currentRecipe: 'currentRecipe'
-    }),
-    recipeName: function () {
-      return this.recipes[this.currentRecipe].name
-    }
+    ...mapState(['currentRecipeObj'])
   }
 }
 </script>
